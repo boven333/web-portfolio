@@ -1,0 +1,48 @@
+/* Header */
+.containers {
+    background-image: linear-gradient(45deg, #ffeeee, #ffffff);
+    width: 100%;
+    height: 23rem;
+    padding: 8rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+}
+.containers > div > h1 {
+    font-size: 3rem;
+}
+.containers > div > p {
+    font-size: 1.2rem;
+}
+
+/* About Me */
+.cardAboutMe {
+    background-image: linear-gradient(45deg, #ffeeee, #ffffff);
+    width: 70%;
+    height: auto;
+    padding: 5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+}
+.cardOfme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Skill and Expertise */
+.cardMyskills {
+    background-image: linear-gradient(45deg, #ffeeee, #ffffff);
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+}
+.listskills {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
