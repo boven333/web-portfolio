@@ -3,6 +3,7 @@ import Header from "./pages/Header";
 import AboutMe from "./pages/AboutMe";
 import Myskills from "./pages/MySkills";
 import Navigator from "./Navbar/Navigator";
+import MyProject from "./pages/MyProject";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <AboutMe/>
       <Myskills/>
+      <MyProject/>
     </div>
   );
 }
